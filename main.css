@@ -1,0 +1,171 @@
+* {
+	background-color: #3ab5d0;
+}
+
+#titlebox {
+	width: 100%;
+	background-color: #ffdc62;
+	position: relative;
+	font: 25pt arial, sans-serif;
+	color: #3ab5d0;
+	margin-top: -50px;
+	padding-top: 70px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+#one{
+	height: 10px;
+	width: 100%;
+	background-color: #ffd562;
+}
+
+#two{
+	height: 10px;
+	width: 100%;
+	background-color: #ffc662;
+}
+
+#three{
+	height: 10px;
+	width: 100%;
+	background-color: #ffbb62;
+}
+
+#four{
+	height: 10px;
+	width: 100%;
+	background-color: #ffb362;
+}
+
+#five{
+	height: 10px;
+	width: 100%;
+	background-color: #ff9262;
+}
+
+.columns {
+	width: 100%;
+	position: relative;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.columns .left {
+	float: left; 
+	width: 50%;
+	position: relative;
+	background-color: #d04679;
+}
+
+.columns .right {
+	float: left; 
+	width: 50%;
+	position: relative;
+	background-color: #ed779e;
+}
+
+.title {
+	width: 50%;
+	font: 16pt arial, sans-serif;
+	color: #3ab5d0;
+	text-align: center;
+}
+
+.studio {
+	background-color: #d04679;
+}
+
+.lab {
+	background-color: #ed779e;
+}
+
+.link {
+	width: 50%;
+	font: 12pt arial, sans-serif;
+}
+
+#six{
+	height: 10px;
+	width: 100%;
+	background-color: #1a7e8a;
+	position: fixed;
+ 	bottom: 120px;
+ 	left: 0;
+}
+
+#seven{
+	height: 10px;
+	width: 100%;
+	background-color: #16727d;
+	position: fixed;
+ 	bottom: 110px;
+ 	left: 0;
+}
+
+#eight{
+	height: 10px;
+	width: 100%;
+	background-color: #126973;
+	position: fixed;
+ 	bottom: 100px;
+ 	left: 0;
+}
+
+ #pond {
+ 	background-color: #105a63;
+ 	height: 100px;
+ 	width: 100%;
+ 	position: fixed;
+ 	bottom: 0;
+ 	left: 0;
+
+ }
+
+/* #leaf1 {
+ 	position: fixed;
+ 	bottom: 80px;
+ 	left: 20%;
+ 	z-index: 1;
+ 	background: transparent;
+ }*/
+
+#leaf2 {
+ 	position: fixed;
+ 	bottom: 60px;
+ 	left: 20%;
+ 	z-index: 1;
+ 	background: transparent;
+ }
+
+ #leaf3 {
+ 	position: fixed;
+ 	bottom: 70px;
+ 	left: 52%;
+ 	z-index: 2;
+ 	background: transparent;
+ }
+
+ #leaf4 {
+ 	position: fixed;
+ 	bottom: 50px;
+ 	left: 75%;
+ 	z-index: 3;
+ 	background: transparent;
+ }
+
+ #flower1 {
+ 	position: fixed;
+ 	bottom: 85px;
+ 	left: 18%;
+ 	z-index: 4;
+ 	background: transparent;
+ }
+
+ #flower2 {
+ 	position: fixed;
+ 	bottom: 62px;
+ 	left: 82%;
+ 	z-index: 5;
+ 	background: transparent;
+ }
