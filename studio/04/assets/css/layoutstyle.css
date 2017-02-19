@@ -1,0 +1,28 @@
+#wrapper {
+  font-family: 'Roboto Slab', serif;
+  padding: 40px;
+}
+
+#wrapper img {
+  width: 460px;
+  display: block;
+  margin: auto;
+}
+
+h1 {
+  text-transform: uppercase;
+  letter-spacing: 1em;
+  font-size: 60px;
+  line-height: 0.8em;
+  text-align: center;
+  padding-left: 60px;
+}
+
+.body {
+  width: 600px;
+  display: block;
+  margin: auto;
+  padding-top: 25px;
+  line-height: 1.45em;
+  font-size: 18x;
+}
