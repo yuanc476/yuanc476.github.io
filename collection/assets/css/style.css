@@ -20,21 +20,25 @@ p {
 	text-decoration: none;
 	font-family: "Century Gothic";
 }
-/*NAV*/
 
-nav {
+h3 {
+	text-decoration: none;
+	font-family: "Century Gothic";
+	font-size: 28px;
+	color: #4B6F57;
+}
+
+/* TOP NAV */
+
+#topnav {
 	width: 100%;
 	height: 55px;
-	/*display: inline-block;*/
 	margin: -4px 0px;
-/*	text-align: center;*/
-/*	background-color: #60896A;*/
 	padding-left: 10px;
 }
 
-nav div{
+#topnav div{
 	display: inline-block;
-
 }
 
 .button1 {
@@ -72,8 +76,63 @@ nav div{
 	background-color: #4B6F57;
 }
 
-/*SIDE NAVS*/
-.sidefilter {
+.button1 p:hover {
+	background-color: #4B6F57;
+}
+
+.button2 p:hover {
+	background-color: #4B6F57;
+}
+
+/*SIDENAV*/
+#sidenav {
+  height: 100%;
+  width: 250px;
+  background-color: #ECB477;
+  position: fixed;
+  transition: left 0.5s;
+  top: 0px;
+  z-index: 1;
+}
+
+#sidenav a,p {
+	background-color: #ECB477;
+	text-decoration: none;
+	color: black;
+}
+
+#sidenav a:hover {
+	color: white;
+}
+
+.filter {
+	background-color: #ECB477;
+	margin-left: 30px;
+	margin-top: 70px;	
+}
+
+.open {
+  left: 0;
+}
+
+.closed {
+  left: -200px;
+}
+
+#closebtn {
+	font-size: 40px;
+	margin-left: 170px;
+	margin-top: -60px;
+	background-color: #ECB477;
+}
+
+#closebtn a:hover {
+	color: white;
+	cursor: pointer;
+}
+
+
+/*#sidefilter {
 	width: 25px;
 	height: 100%;
 	position: fixed;
@@ -81,7 +140,7 @@ nav div{
 	background-color: #ECB477;
 }
 
-.sidefilter p {
+#sidefilter p {
 	position: relative;
 	transform: rotate(270deg);
 	vertical-align: center;
@@ -89,8 +148,8 @@ nav div{
 	color: white;
 	background-color: #ECB477;
 	margin-top: 300px;
-}
-
+}*/
+/*
 .sidemenu {
 	width: 25px;
 	height: 100%;
@@ -108,7 +167,7 @@ nav div{
 	color: white;
 	background-color: #ECB477;
 	margin-top: 300px;
-}
+}*/
 
 /*ARTICLE PREVIEW*/
 .pagecontent {
@@ -136,12 +195,39 @@ nav div{
 
 .textpreview {
 	background-color: #4B6F57;
-	padding: 5px;
+	padding: 10px 5px;
 }
 
+.imgpreview {
+	margin-bottom: -5px;
+}
 
-
-img {
+.pagecontent img{
     max-width: 100%;
     max-height: 100%;
+    opacity: 0.8;
+}
+
+/*BOTTOM BAR*/
+.bottombar {
+	height: 80px;
+	width: 100%;
+	background-color: #60896A;
+	margin-bottom: -20px;
+}
+
+.bottombar p {
+	text-align: center;
+	color: white;
+	background-color: #60896A;
+	padding-top: 20px;
+}
+
+/*ABOUT*/
+.about {
+	width: 50%;
+	display: block;
+	margin: 100px auto;
+	padding-bottom: 60px;
+	line-height: 1.4em;
 }

@@ -85,12 +85,29 @@ nav div{
 /*BACK*/
 
 .back p{
-	margin-left: 60px;
+	margin-left: 70px;
 	display: inline-block;
+	position: absolute;
 	background-color: #404740;
 	color: white;
+	margin-top: 15px;
 }
 
+.back {
+	width: 140px;
+	height: 54px;
+	margin-top: -51px;
+	background-color: #404740;
+	position: absolute;
+
+}
+
+.back img {
+	position: absolute;
+	margin-left: 40px;
+	margin-top: 15px;
+
+}
 
 
 /*SIDE NAVS*/
@@ -138,6 +155,7 @@ nav div{
 	display: block;
 	margin: auto;
 	padding-bottom: 60px;
+	padding-top: 40px;
 	line-height: 1.4em;
 }
 
