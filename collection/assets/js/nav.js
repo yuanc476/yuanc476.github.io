@@ -5,9 +5,9 @@ $('#sidenav').click(function() {
   $('#closebtn').show();
 })
 
-$('#closeBtn').click(function() {
+$('#closebtn').click(function() {
   $('#sidenav').removeClass('open');
   $('#sidenav').addClass('closed');
   $('#closebtn').hide();
-  // $('#openBtn').show();
+  // $('#openbtn').show();
 })

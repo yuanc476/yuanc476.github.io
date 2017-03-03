@@ -3,10 +3,6 @@
 <head>
 	<title>Health Today</title>
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	<!-- <script src='./js/jquery-3.1.1.min.js' type='text/javascript'></script> -->
-	<script src="../assets/js/nav.js"></script>
-
 	<link rel="stylesheet" type="text/css" href="../assets/css/style.css">
 	
 </head>
@@ -25,7 +21,7 @@
 	<!-- SIDE NAV -->
 	<div id="sidenav" class="closed">
 		<div class="filter">
-			<div id="closebtn">&times;</div>
+			<div id="closebtn" class="hidden"><p>&times;</p></div>
 			<p>TOPIC</p>
 			    <p><a href="./health.html">&nbsp; &nbsp; &nbsp;Health</a></p>
 			  	<p><a href="./entertainment.html">&nbsp; &nbsp; &nbsp;Entertainment</a></p>
@@ -36,8 +32,11 @@
 			    <p><a href="#">&nbsp; &nbsp; &nbsp;Article</a></p>
 			    <p><a href="#">&nbsp; &nbsp; &nbsp;Product</a></p>
 			    <p><a href="#">&nbsp; &nbsp; &nbsp;Video</a></p>
+		</div> <!-- filter -->
+		<div id="filtertag" class="showing">
+		<p>FILTERS</p>
 		</div>
-	</div>
+	</div> <!-- sidenav -->
 
 	<!-- BODY -->
 	<div class="pagecontent">
@@ -111,5 +110,10 @@
 	</div>
 
 	</div> <!-- page -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<!-- <script src='./js/jquery-3.1.1.min.js' type='text/javascript'></script> -->
+	<script src="../assets/js/nav.js"></script>
+
 </body>
 </html>
