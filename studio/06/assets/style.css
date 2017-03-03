@@ -10,6 +10,13 @@ h1 {
 	font-style: normal;
 }
 
+p {
+	font-family: "Logica Big Regular";
+	font-weight: normal;
+	font-style: normal;
+	font-size: 16px;
+}
+
 .image {
 	display: inline-block;
 	width: 40%;
