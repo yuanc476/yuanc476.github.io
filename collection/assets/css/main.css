@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: "Century Gothic";
-    src: url("../assets/centurygothic") format("truetype");
+    src: url("../centurygothic") format("truetype");
 }
 
 .page {
