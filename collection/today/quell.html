@@ -9,12 +9,14 @@
 	<div class="page">
 	<!-- HEAD -->
 	<div class="headerimg"><img src="../assets/media/img/header.jpg" width="100%" height="auto"></div>
-	<!-- NAV -->
-	<nav>
-		<div class="button1"><a href="../today.html"><p>AVAILABLE TODAY</p></a></div>
+	
+	<!-- TOPNAV -->
+	<nav id="topnav">
+		<div class="button1 selected"><a href="../today.html"><p>AVAILABLE TODAY</p></a></div>
 		<div class="button2"><a href="../future.html"><p>FUTURE TECHNOLOGY</p></a></div>
 	</nav>
 
+	<!-- BACK -->
 	<div class="back">
 		<a href="../today.html">
 		<img src="../assets/media/img/arrow.png" width="20px" height="auto">
@@ -23,12 +25,25 @@
 	</div>
 
 	<!-- SIDE NAV -->
-	<div class="sidefilter">
-		<p>Filters</p>
-	</div>
-	<div class="sidemenu">
-		<p>Menu</p>
-	</div>
+	<div id="closebtn" class="hidden"><p>&times;</p></div>
+	<div id="sidenav" class="closed">
+		<div class="filter">
+			<!-- <div class="closebtn hidden"><p>&times;</p></div> -->
+			<p>TOPIC</p>
+			    <p><a href="./health.html">&nbsp; &nbsp; &nbsp;Health</a></p>
+			  	<p><a href="./entertainment.html">&nbsp; &nbsp; &nbsp;Entertainment</a></p>
+			  	<p><a href="./lifestyle.html">&nbsp; &nbsp; &nbsp;Lifestyle</a></p>
+			  	<p><a href="./communication.html">&nbsp; &nbsp; &nbsp;Communication</a></p>
+		  	<br>
+		  	<p>MEDIUM</p>
+			    <p><a href="./articles.html">&nbsp; &nbsp; &nbsp;Articles</a></p>
+			    <p><a href="./products.html">&nbsp; &nbsp; &nbsp;Products</a></p>
+			    <p><a href="./videos.html">&nbsp; &nbsp; &nbsp;Videos</a></p>
+		</div> <!-- filter -->
+		<div id="filtertag" class="showing">
+		<p>FILTERS</p>
+		</div>
+	</div> <!-- sidenav -->
 
 	<!-- ARTICLE -->
 	<div class="article">
@@ -57,5 +72,9 @@
 		</div>
 	</div>
 	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="../assets/js/nav.js"></script>
+	
 </body>
 </html>

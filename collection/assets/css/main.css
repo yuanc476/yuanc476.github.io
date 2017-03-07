@@ -14,6 +14,8 @@
 a {
 	text-decoration: none;
 	font-family: "Century Gothic";
+	color: white;
+	font-size: 17px;
 }
 
 p {
@@ -26,13 +28,21 @@ h3 {
 	font-family: "Century Gothic";
 	font-size: 28px;
 	color: #4B6F57;
+	text-align: center;
+}
+
+h2 {
+	text-decoration: none;
+	font-family: "Century Gothic";
+	font-size: 28px;
+	color: white;
 }
 
 /* TOP NAV */
 
 #topnav {
 	width: 100%;
-	height: 58px;
+	height: 55px;
 	margin: -4px 0px;
 	padding-left: 10px;
 	background-color: #60896A;
@@ -85,116 +95,87 @@ h3 {
 	background-color: #4B6F57;
 }
 
-/*SIDENAV*/
-#sidenav {
-  height: 100%;
-  width: 250px;
-  background-color: #ECB477;
-  position: fixed;
-  transition: left 0.5s;
-  top: 0px;
-  z-index: 1;
+
+
+
+
+/*SLIDESHOW*/
+#slideshow {
+	width: 50%;
+	height: 400px;
+	margin: auto;
+	overflow: hidden;
 }
 
-#sidenav a,p {
-	background-color: #ECB477;
-	text-decoration: none;
-	color: black;
+.titles {
+	width: 50%;
+	height: 35px;
+	margin: auto;
+	padding-bottom: 30px;
 }
 
-#sidenav a:hover {
-	color: white;
-}
-
-.filter {
-	background-color: #ECB477;
-	margin-left: 30px;
-	margin-top: 70px;	
-}
-
-.open {
-  left: 0;
-}
-
-.closed {
-  left: -200px;
-}
-
-#closebtn {
-	width: 50px;
-	height: 50px;
-	font-size: 40px;
-	margin-left: 200px;
-	margin-top: -230px;
-	background-color: #ECB477;
-	z-index: 20;
-	cursor: pointer;
+.text {
+	width: 100%;
+	height: 100%;
+	padding-top: 12px;
+	background-color: #4B6F57;
 	text-align: center;
-	position: fixed;
 }
 
-#closebtn p:hover {
-	color: white;
-	cursor: pointer;
+.text a{
+	background-color: #4B6F57;
+
+}
+
+.one {
+	background-image: url(../media/img/medcottage2.jpg);
+	background-size: cover;
+	overflow: hidden;
+}
+
+
+.two {
+	background-image: url(../media/img/quell2.jpg);
+	background-size: cover;
+	overflow: hidden;
+}
+
+.three {
+	background-image: url(../media/img/hacking.jpg);
+	background-size: cover;
+	overflow: hidden;
 }
 
 .hidden {
 	display: none;
 }
 
-#filtertag {
-	display: fixed;
-	transform: rotate(270deg);
-	width: 50px;
-	margin-top: -150px;
-	margin-left: 200px;
-	cursor: pointer;
-}
-
-#filtertag p {
-	color: white;
-	background-color: #ECB477;
-
-}
-
-/*ARTICLE PREVIEW*/
-.pagecontent {
-	padding: 20px 20px;
+#buttons {
 	text-align: center;
 }
 
-.contentpreview {
-	width: 38%;
-	height: 38%;
-	margin: 20px;
+#btn1,#btn2,#btn3 {
+	height: 20px;
+	width: 20px;
 	display: inline-block;
-
+	background-color: #60896A;
+	margin: 2px;
+	cursor: pointer;
 }
 
-.textpreview p, h2{
+#btn1:hover,#btn2:hover,#btn3:hover {
 	background-color: #4B6F57;
-	color: white;
-	margin-top: -10px;
 }
 
-.textpreview h2 {
-	padding-top: 10px;
-}
 
-.textpreview {
+.btnselected {
 	background-color: #4B6F57;
-	padding: 10px 5px;
 }
 
-.imgpreview {
-	margin-bottom: -5px;
-}
 
-.pagecontent img{
-    max-width: 100%;
-    max-height: 100%;
-    opacity: 0.8;
-}
+
+
+
 
 /*BOTTOM BAR*/
 .bottombar {

@@ -31,20 +31,17 @@ iframe {
 	width: 100%;
 }
 
-/*NAV*/
-nav {
+/* TOP NAV */
+
+#topnav {
 	width: 100%;
 	height: 55px;
-	/*display: inline-block;*/
 	margin: -4px 0px;
-/*	text-align: center;*/
-/*	background-color: #60896A;*/
 	padding-left: 10px;
 }
 
-nav div{
+#topnav div{
 	display: inline-block;
-
 }
 
 .button1 {
@@ -82,10 +79,100 @@ nav div{
 	background-color: #4B6F57;
 }
 
+.button1 p:hover {
+	background-color: #4B6F57;
+}
+
+.button2 p:hover {
+	background-color: #4B6F57;
+}
+
+/*SIDENAV*/
+#sidenav {
+  height: 100%;
+  width: 250px;
+  background-color: #ECB477;
+  position: fixed;
+  transition: left 0.5s;
+  top: 0px;
+  z-index: 1;
+}
+
+#sidenav a {
+	background-color: #ECB477;
+	text-decoration: none;
+	color: black;
+}
+
+#sidenav p {
+	background-color: #ECB477;
+	text-decoration: none;
+	color: black;
+}
+
+#sidenav a:hover {
+	color: white;
+}
+
+.filter {
+	background-color: #ECB477;
+	margin-left: 30px;
+	margin-top: 70px;	
+}
+
+.open {
+  left: 0;
+}
+
+.closed {
+  left: -200px;
+}
+
+#closebtn {
+	width: 50px;
+	height: 50px;
+	margin-left: 200px;
+	margin-top: -230px;
+	background-color: #ECB477;
+	z-index: 20;
+	cursor: pointer;
+	text-align: center;
+	position: fixed;
+}
+
+#closebtn p {
+	font-size: 40px;
+	background-color: #ECB477;
+}
+
+#closebtn p:hover {
+	color: white;
+	cursor: pointer;
+}
+
+.hidden {
+	display: none;
+}
+
+#filtertag {
+	display: fixed;
+	transform: rotate(270deg);
+	width: 50px;
+	margin-top: -150px;
+	margin-left: 200px;
+	cursor: pointer;
+}
+
+#filtertag p {
+	color: white;
+	background-color: #ECB477;
+
+}
+
 /*BACK*/
 
 .back p{
-	margin-left: 70px;
+	margin-left: 100px;
 	display: inline-block;
 	position: absolute;
 	background-color: #404740;
@@ -94,7 +181,7 @@ nav div{
 }
 
 .back {
-	width: 140px;
+	width: 155px;
 	height: 54px;
 	margin-top: -51px;
 	background-color: #404740;
@@ -104,48 +191,10 @@ nav div{
 
 .back img {
 	position: absolute;
-	margin-left: 40px;
+	margin-left: 65px;
 	margin-top: 15px;
+	background-color: #404740;
 
-}
-
-
-/*SIDE NAVS*/
-.sidefilter {
-	width: 25px;
-	height: 100%;
-	position: fixed;
-	bottom: 0px;
-	background-color: #ECB477;
-}
-
-.sidefilter p {
-	position: relative;
-	transform: rotate(270deg);
-	vertical-align: center;
-	text-align: center;
-	color: white;
-	background-color: #ECB477;
-	margin-top: 300px;
-}
-
-.sidemenu {
-	width: 25px;
-	height: 100%;
-	position: fixed;
-	bottom: 0px;
-	right: 0px;
-	background-color: #ECB477;
-}
-
-.sidemenu p {
-	position: relative;
-	transform: rotate(90deg);
-	vertical-align: center;
-	text-align: center;
-	color: white;
-	background-color: #ECB477;
-	margin-top: 300px;
 }
 
 /*ARTICLES*/
