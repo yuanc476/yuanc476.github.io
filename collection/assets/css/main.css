@@ -131,6 +131,7 @@ h2 {
 	background-image: url(../media/img/medcottage2.jpg);
 	background-size: cover;
 	overflow: hidden;
+	opacity: 0.8;
 }
 
 
@@ -138,12 +139,14 @@ h2 {
 	background-image: url(../media/img/quell2.jpg);
 	background-size: cover;
 	overflow: hidden;
+	opacity: 0.8;
 }
 
 .three {
 	background-image: url(../media/img/hacking.jpg);
 	background-size: cover;
 	overflow: hidden;
+	opacity: 0.8;
 }
 
 .hidden {
