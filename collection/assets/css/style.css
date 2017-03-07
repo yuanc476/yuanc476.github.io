@@ -7,10 +7,10 @@ html, body {
 	height: 100%;
 }
 
-@font-face {
+/*@font-face {
     font-family: "Century Gothic";
     src: url("./centurygothic") format("truetype");
-}
+}*/
 
 .page {
 	margin: -8px;
@@ -18,17 +18,20 @@ html, body {
 
 a {
 	text-decoration: none;
-	font-family: "Century Gothic";
+	/*font-family: "Century Gothic";*/
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 p {
 	text-decoration: none;
-	font-family: "Century Gothic";
+	/*font-family: "Century Gothic";*/
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 h3 {
 	text-decoration: none;
-	font-family: "Century Gothic";
+	/*font-family: "Century Gothic";*/
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 28px;
 	color: #4B6F57;
 }
