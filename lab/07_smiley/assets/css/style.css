@@ -1,0 +1,139 @@
+/* 320, 480, 768, 992, 1200
+*/
+
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	margin: 0;
+}
+
+header {
+	position: fixed;
+	left: 20px;
+	bottom: 10px;
+}
+
+
+
+/*Grid*/
+
+.block {
+	display: inline-block;
+	border: 1px solid black;
+	font-size: 0;
+	transition: background-color 0.5s;
+}
+.block:hover {
+	transition: background-color 0s;
+}
+
+.black {
+	background-color: black;
+}
+
+.yellow {
+	background-color: yellow;
+}
+
+/*Label*/
+
+.label {
+	transition: visibility 0.5s, opacity 0.5s;
+	display: inline-block;
+	visibility: hidden;
+	opacity: 0;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+.label.active {
+	background-color: lightpink;
+}
+
+
+.label.inactive {
+	background-color: lightblue;
+}
+
+.prompt, .monitor {
+	background-color: white;
+	padding: 10px;
+	border: 1px solid black;
+	box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.2);
+	margin-left: 10px;
+	display: inline-block;	
+}
+
+.prompt {
+	animation-name: pulse;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	opacity: 0;
+}
+
+/*
+animations*/
+@keyframes pulse {
+	0% { opacity: 0 }
+	50% {opacity: 1}
+	100% { opacity: 0}
+}
+
+
+/*keyframes*/
+
+
+/*phone*/
+@media (max-width: 480px) {
+	.block {
+		width: calc(20% - 4px);
+		padding-top: calc(20% - 4px);
+	}
+
+	.block:hover {
+	background-color: lightpink;
+	}
+
+	.label.inactive {
+		visibility: visible;
+		opacity: 1;
+	}
+
+}
+
+/*small desktop*/
+@media (min-width: 481px) and (max-width: 991px) {
+	.block {
+		width: calc(10% - 4px);
+		padding-top: calc(10% - 4px);
+	}
+
+	.block:hover {
+		background-color: lightblue;
+	}
+	.label.active {
+		visibility: visible;
+		opacity: 1;
+	}
+	.prompt {
+		display: none;
+	}
+}
+
+/*large desktop*/
+@media (min-width: 992px) {
+	.block {
+		width: calc(5% - 4px);
+		padding-top: calc(5% - 4px);
+	}
+	.block:hover {
+	background-color: lightgreen;
+	}
+	.label.active {
+		visibility: visible;
+		opacity: 1;
+	}
+}
+

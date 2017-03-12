@@ -1,0 +1,89 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  height: 100%;
+  width: 200%;
+  margin: auto;
+}
+
+#background {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  overflow: hidden;
+  position: absolute;
+} 
+
+#foreground {
+  /*width: 1500px;*/
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  z-index: 1;
+  background-size: cover;
+  overflow: hidden;
+  position: absolute;
+/*  right: 0px;
+  bottom: 0px;*/
+}
+
+/*320px (small mobile device), 
+480px (medium mobile device), 
+768px (tablet), 
+992px (small desktop), 
+1200px (large desktop)*/
+
+
+@media screen and (min-width: 1200px) {   
+    #background{
+    	background-image: url(../img/largebg.png);
+    } 
+    #foreground{
+      background-image: url(../img/largefg.png);
+      right: 0px;
+      bottom: 0px;
+      width: 1300px;
+    }
+}
+
+@media screen and (max-width: 1199px) {   
+    #background{
+      background-image: url(../img/mediumbg.png);
+      right: 0px;
+      bottom: 0px;
+      width: 1200px;
+    } 
+    #foreground{
+      background-image: url(../img/mediumfg.png);
+    }
+}
+
+@media screen and (max-width: 991px) {   
+    #background{
+      background-image: url(../img/mediumbg.png);
+      right: 0px;
+      bottom: 0px;
+      width: 1000px;
+    } 
+    #foreground{
+      background-image: url(../img/smallfg.png);
+    }
+}
+
+@media screen and (max-width: 767px) {   
+    #background{
+      background-image: url(../img/xsbg.png);
+      right: 0px;
+      bottom: 0px;
+      width: 900px;
+    } 
+    #foreground{
+      background-image: url(../img/xsfg.png);
+    }
+}
