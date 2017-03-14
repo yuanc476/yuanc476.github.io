@@ -17,3 +17,7 @@ body {
 	margin: auto;
 	padding-top: 50px;
 }
+
+img {
+	width: 50%;
+}
