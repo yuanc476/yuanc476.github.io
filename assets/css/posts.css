@@ -21,3 +21,7 @@ body {
 img {
 	width: 50%;
 }
+
+p, h1, h2, h3, a {
+	font-family: 'Montserrat', sans-serif;
+}

@@ -1,0 +1,80 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+}
+
+
+/*SQUARES*/
+.square.one {
+	width: 500px;
+	height: 400px;
+	background-color: #92B0CC;
+	position: absolute;
+	margin-left: calc(50% - 80px);
+	margin-top: 90px;
+	opacity: 0.35;
+	transition: margin-top 3s, background-color 3s, opacity 3s;
+}
+
+.square.two {
+	width: 350px;
+	height: 350px;
+	background-color: #3B5F7F;
+	position: absolute;
+	margin-left: calc(50% - 5px);
+	margin-top: 200px;
+	opacity: 0.3;
+	transition: margin-top 3s, background-color 3s, opacity 3s;
+}
+
+.square.three {
+	width: 200px;
+	height: 400px;
+	background-color: #B7DDFF;
+	position: absolute;
+	margin-left: calc(50% + 70px);
+	margin-top: 50px;
+	opacity: 0.35;
+	transition: margin-top 3s, background-color 3s, opacity 3s;
+}
+
+.one:hover {
+	background-color: #FF4273;
+	margin-top: 60px;
+	opacity: 1;
+	transition-timing-function: ease-in-out;
+	transition: background-color 1s, margin-top 1s, opacity 1.5s;
+}
+
+.two:hover {
+	background-color: #FFBAC0;
+	margin-top: 140px;
+	opacity: 1;
+	transition-timing-function: ease-in-out;
+	transition: background-color 1s, margin-top 1s, opacity 1.5s;
+}
+
+.three:hover {
+/*	background-color: #FFF9F9;*/
+	background-color: #ffffff;	
+	margin-top: 260px;
+	opacity: 1;
+	transition-timing-function: ease-in-out;
+	transition: background-color 1s, margin-top 1s, opacity 1.5s;
+}
+
+/*TEXT*/
+p, h3 {
+	font-family: 'Montserrat', sans-serif;
+	text-align: justify;
+}
+
+#text {
+	width: 320px;
+/*	border: solid black;*/
+	margin-left: 12vw;
+	margin-top: 30vh;
+	position: absolute;
+}
+
