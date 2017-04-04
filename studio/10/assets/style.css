@@ -1,0 +1,272 @@
+html {
+	width: 100%;
+	height: 100%;
+}
+
+a, p, h1, h2, h3, caption {
+	font-family: sans-serif;
+}
+
+#title {
+	text-align: center;
+	padding-top: 20px;
+}
+
+
+@media screen and (min-width: 768px) { 
+	.img {
+	width: 500px;
+	margin: 0 auto;
+	text-align: center;
+	}
+
+	#text {
+		width: 50%;
+		margin: 0 auto;
+	}
+
+	/*IMAGE*/  
+	.imgcopy {
+		width: 500px;
+		height: 710px;
+		margin: 0 auto;
+		overflow: hidden;
+		padding-bottom: 30px;
+	}
+
+	#sky {
+		width: 500px;
+		height: 710px;
+		background-color: #180f19;
+		position: absolute;
+	}
+
+	#red {
+		height: 236px;
+		width: 486px;
+		border-radius: 0 0 486px 486px;
+		background-color: #f84744;
+		position: absolute;
+		margin-left: 4px;
+		border: 3px solid #fed19c;
+	}
+
+	#moon {
+		width: 70px;
+		height: 70px;
+		border-radius: 70px;
+		background-color: #fbd1ac;
+		margin-top: 350px;
+		margin-left: 90px;
+		position: absolute;
+	}
+
+	#astronaut {
+		height: auto;
+		position: absolute;
+		z-index: 2;
+		margin-left: 220px;
+		margin-top: 470px;
+	}
+
+	#rectangle {
+		height: 400px;
+		width: 200px;
+		background-color: #68acc9;
+		mix-blend-mode: overlay;
+		position: absolute;
+		margin-top: 150px;
+		margin-left: 150px;
+
+	}
+
+	#star1 {
+		width: 8px;
+		height: 8px;
+		border-radius: 8px;
+		background-color: #fbd1ac;
+		margin-top: 210px;
+		margin-left: 430px;
+		position: absolute;
+	}
+
+	#star2 {
+		width: 3px;
+		height: 3px;
+		border-radius: 3px;
+		background-color: #fbd1ac;
+		margin-top: 370px;
+		margin-left: 480px;
+		position: absolute;
+	}
+
+	#star3 {
+		width: 2px;
+		height: 2px;
+		border-radius: 2px;
+		background-color: #fbd1ac;
+		margin-top: 470px;
+		margin-left: 450px;
+		position: absolute;
+	}
+
+	#star4 {
+		width: 2px;
+		height: 2px;
+		border-radius: 2px;
+		background-color: #fbd1ac;
+		margin-top: 260px;
+		margin-left: 80px;
+		position: absolute;
+	}
+
+	#star5 {
+		width: 1px;
+		height: 1px;
+		border-radius: 1px;
+		background-color: #fbd1ac;
+		margin-top: 335px;
+		margin-left: 40px;
+		position: absolute;
+	}
+
+	#star6 {
+		width: 2px;
+		height: 2px;
+		border-radius: 2px;
+		background-color: #fbd1ac;
+		margin-top: 480px;
+		margin-left: 90px;
+		position: absolute;
+	}
+}
+
+@media screen and (max-width: 768px) { 
+	.img {
+	width: calc(500px * 0.692);
+	margin: 0 auto;
+	text-align: center;
+	}
+
+	#text {
+		width: 50%;
+		margin: 0 auto;
+	}
+
+	/*IMAGE*/  
+	.imgcopy {
+		width: calc(500px * 0.692);
+		height: 710px;
+		margin: 0 auto;
+		overflow: hidden;
+		padding-bottom: 10px;
+	}
+
+	#sky {
+		width: calc(500px * 0.692);
+		height: calc(710px * 0.692);
+		background-color: #180f19;
+		position: absolute;
+	}
+
+	#red {
+		height: calc(236px * 0.692);
+		width: calc(486px * 0.692);
+		border-radius: 0 0 486px 486px;
+		background-color: #f84744;
+		position: absolute;
+		margin-left: 4px;
+		border: 3px solid #fed19c;
+	}
+
+	#moon {
+		width: calc(70px * 0.692);
+		height: calc(70px * 0.692);
+		border-radius: calc(70px * 0.692);
+		background-color: #fbd1ac;
+		margin-top: calc(350px * 0.692);
+		margin-left: calc(90px * 0.692);
+		position: absolute;
+	}
+
+	#astronaut {
+		height: auto;
+		position: absolute;
+		z-index: 2;
+		margin-left: calc(220px * 0.692);
+		margin-top: calc(470px * 0.692);
+	}
+
+	#rectangle {
+		height: calc(400px * 0.692);
+		width: calc(200px * 0.692);
+		background-color: #68acc9;
+		mix-blend-mode: overlay;
+		position: absolute;
+		margin-top: calc(150px * 0.692);
+		margin-left: calc(150px * 0.692);
+
+	}
+
+	#star1 {
+		width: 8px;
+		height: 8px;
+		border-radius: 8px;
+		background-color: #fbd1ac;
+		margin-top: calc(210px * 0.692);
+		margin-left: calc(430px * 0.692);
+		position: absolute;
+	}
+
+	#star2 {
+		width: 3px;
+		height: 3px;
+		border-radius: 3px;
+		background-color: #fbd1ac;
+		margin-top: calc(370px * 0.692);
+		margin-left: calc(480px * 0.692);
+		position: absolute;
+	}
+
+	#star3 {
+		width: 2px;
+		height: 2px;
+		border-radius: 2px;
+		background-color: #fbd1ac;
+		margin-top: calc(470px * 0.692);
+		margin-left: calc(450px * 0.692);
+		position: absolute;
+	}
+
+	#star4 {
+		width: 2px;
+		height: 2px;
+		border-radius: 2px;
+		background-color: #fbd1ac;
+		margin-top: calc(260px * 0.692);
+		margin-left: calc(80px * 0.692);
+		position: absolute;
+	}
+
+	#star5 {
+		width: 1px;
+		height: 1px;
+		border-radius: 1px;
+		background-color: #fbd1ac;
+		margin-top: calc(335px * 0.692);
+		margin-left: calc(40px * 0.692);
+		position: absolute;
+	}
+
+	#star6 {
+		width: 2px;
+		height: 2px;
+		border-radius: 2px;
+		background-color: #fbd1ac;
+		margin-top: calc(480px * 0.692);
+		margin-left: calc(90px * 0.692);
+		position: absolute;
+	}
+}
+
+
