@@ -53,7 +53,7 @@ function makePyramid(height) {
 	var checkerboardBtn = document.getElementById("checkerboardBtn");
 
 	checkerboardBtn.addEventListener("click", function(event){
-		makeCkeckerboard(6,6);
+		makeCheckerboard(10,5);
 	});
 // ----------------------------------------------
 
@@ -62,6 +62,6 @@ function makePyramid(height) {
 	var pyramidBtn = document.getElementById("pyramidBtn");
 
 	pyramidBtn.addEventListener("click", function(event){
-		makePyramid(6);
+		makePyramid(5);
 	});
 // ----------------------------------------------
