@@ -92,7 +92,31 @@ function makeCheckerboard(width,height) {
 	console.log(checkerboard);
 }
 
+var pattern = "";
 
+function makePattern(width, height) {
+	for (i = 0; i < 10; i ++) {
+		if (i % 2) {
+			for (j = 0; j < width; j ++) {
+				if (j % 2){
+					pattern = "o";
+				} else {
+					pattern = "_"
+				}
+			}
+		} else {
+			for (j = 0; j <width; j++) {
+					if (j = 0; j < width; j++) {
+						pattern = "_";
+					} else {
+						pattern = "o";
+					}
+			}
+		}
+		checkerboard = checkerboard + "\n";
+	}
+	console.log(pattern);
+}
 
 
 

@@ -19,6 +19,7 @@ var html = document.documentElement;
 
 
 
+
 //Background Button
 // -------------------------------------------------
 	var bgButton = document.getElementById("bg-button");
@@ -72,6 +73,17 @@ html.addEventListener("click", function(event){
 });
 // -------------------------------------------------
 
+
+//Test
+// -------------------------------------------------
+var myTest = 0;
+var testBtn = document.getElementById("test-button");
+
+testBtn.addEventListener("click", function(event){
+	myTest += 1;
+	console.log("Test " + myTest)
+	event.stopPropagation();
+});
 
 
 
