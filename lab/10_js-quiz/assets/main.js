@@ -56,3 +56,12 @@ function makePyramid(height) {
 		makeCkeckerboard(6,6);
 	});
 // ----------------------------------------------
+
+//Pyramid Button
+// ----------------------------------------------
+	var pyramidBtn = document.getElementById("pyramidBtn");
+
+	pyramidBtn.addEventListener("click", function(event){
+		makePyramid(6);
+	});
+// ----------------------------------------------
