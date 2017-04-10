@@ -1,0 +1,16 @@
+html {
+	width: 100%;
+	height: 100%;
+}
+
+#prototype {
+	height: 100vh;
+	display: inline-block;
+	margin: 0 auto;
+}
+
+#text {
+	width: 50%;
+	font: 12 px sans-serif;
+	margin: 0 auto;
+}
