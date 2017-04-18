@@ -1,0 +1,78 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+}
+
+.text {
+	position: absolute;
+}
+
+/*SQUARES*/
+.square.one {
+	width: 550px;
+	height: 550px;
+	background-color: #f6b01a;
+	position: absolute;
+	margin-left: calc(50% - 275px);
+	margin-top: calc(50vh - 275px);
+	opacity: 1;
+	/*transition: margin-top 3s, background-color 3s, opacity 3s;*/
+}
+
+.square.two {
+	width: 430px;
+	height: 430px;
+	background-color: #e27228;
+	position: absolute;
+	margin-left: calc(50% - 215px);
+	margin-top: calc(50vh - 180px);
+	opacity: 1;
+	transition: margin-top 3s, background-color 3s, opacity 3s;
+}
+
+img {
+	width: 420px;
+	height: 420px;
+	margin-left: calc(50% - 210px);
+	margin-top: calc(50vh - 180px);
+	position: absolute;
+	transition: 1.5s;
+}
+
+img:hover {
+	margin-top: 550px;
+	transition-timing-function: ease-in-out;
+	transition: 1.5s;
+}
+
+p {
+	font-size: 10pt;
+}
+
+
+.text {
+	width: 400px;
+	height: 400px;
+	text-align: justify;
+	margin-left: calc(50% - 210px);
+	margin-top: calc(50vh - 180px);
+}
+
+.left {
+	position: fixed;
+	width: 30px;
+	height: 100vh;
+	left: 0px;
+	background-color: #c2c2c2;
+	opacity: 0.5;
+}
+
+.right {
+	position: fixed;
+	width: 30px;
+	height: 100vh;
+	right: 0px;
+	background-color: #c2c2c2;
+	opacity: 0.5;
+}
