@@ -1,0 +1,29 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+}
+
+#title {
+	margin-left: calc(50% - 110px);
+	margin-top: 42vh;
+}
+/*
+.left {
+	position: absolute;
+	width: 30px;
+	height: 100vh;
+	left: 0px;
+	background-color: #c2c2c2;
+	opacity: 0.5;
+}*/
+
+.right {
+	position: fixed;
+	width: 30px;
+	height: 100vh;
+	right: 0px;
+	top: 0px;
+	background-color: #c2c2c2;
+	opacity: 0.5;
+}

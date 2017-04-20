@@ -4,9 +4,6 @@ html, body {
 	margin: 0px;
 }
 
-.text {
-	position: absolute;
-}
 
 /*SQUARES*/
 .square.one {
@@ -48,10 +45,12 @@ img:hover {
 
 p {
 	font-size: 10pt;
+	font: sans-serif;
 }
 
 
 .text {
+	position: absolute;
 	width: 400px;
 	height: 400px;
 	text-align: justify;
