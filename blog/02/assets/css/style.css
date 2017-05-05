@@ -42,11 +42,27 @@ a, p, h1, h2, h3, li {
 	margin-top: 0px;
 }
 
-#thread01wd {
+
+#thread02cc {
 	width: 22vw;
 	position: fixed;
-	top: 70px;
+	top: 100px;
 	right: -5px;
+}
+
+#thread02wp {
+	width: 22vw;
+	position: fixed;
+	top: 300px;
+	left: -8px;
+}
+
+#home {
+	width: 80px;
+	left: 27.5%;
+	position: relative;
+	padding-bottom: 50px;
+
 }
 
 .share {
@@ -68,12 +84,4 @@ a, p, h1, h2, h3, li {
 
 #facebook {
 	display: inline-block;
-}
-
-#home {
-	width: 80px;
-	left: 27.5%;
-	position: relative;
-	padding-bottom: 50px;
-
 }

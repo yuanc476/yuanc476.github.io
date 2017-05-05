@@ -42,11 +42,33 @@ a, p, h1, h2, h3, li {
 	margin-top: 0px;
 }
 
-#thread01wd {
+#threadc {
+	width: 22vw;
+	position: fixed;
+	top: 100px;
+	left: -5px;
+}
+
+#threadpol {
 	width: 22vw;
 	position: fixed;
 	top: 70px;
 	right: -5px;
+}
+
+#threadpov {
+	width: 22vw;
+	position: fixed;
+	top: 400px;
+	left: -8px;
+}
+
+#home {
+	width: 80px;
+	left: 27.5%;
+	position: relative;
+	padding-bottom: 50px;
+
 }
 
 .share {
@@ -68,12 +90,4 @@ a, p, h1, h2, h3, li {
 
 #facebook {
 	display: inline-block;
-}
-
-#home {
-	width: 80px;
-	left: 27.5%;
-	position: relative;
-	padding-bottom: 50px;
-
 }

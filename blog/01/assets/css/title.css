@@ -1,0 +1,30 @@
+html, body{
+	height:100%;
+}
+
+body{
+	background-color: white;
+	background-image:url(../../../flashlight1.png);
+	background-repeat:no-repeat;
+	background-position:50% 50%;
+}
+
+@font-face {
+    font-family: myriad;
+    src: url(../../../assets/myriad.otf);
+}
+
+p, a, h1, h2, h3{
+	color: white;
+	text-align: center;
+	font-family: myriad;
+	text-decoration: none;
+}
+
+#title {
+	width: 40%;
+	margin: 0 auto;
+	padding-top: 18%;
+	font-size: 20pt;
+	text-decoration: none;
+}
