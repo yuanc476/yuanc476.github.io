@@ -83,3 +83,10 @@ a, p, h1, h2, h3, li {
 #facebook {
 	display: inline-block;
 }
+
+#home {
+	width: 80px;
+	left: 27.5%;
+	position: relative;
+	padding-bottom: 50px;
+}

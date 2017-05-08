@@ -42,24 +42,18 @@ a, p, h1, h2, h3, li {
 	margin-top: 0px;
 }
 
-#threadc {
-	width: 22vw;
-	position: fixed;
-	top: 100px;
-	left: -5px;
-}
 
-#threadpol {
+#thread03m {
 	width: 22vw;
 	position: fixed;
-	top: 70px;
+	top: 120px;
 	right: -5px;
 }
 
-#threadpov {
+#thread03wd {
 	width: 22vw;
 	position: fixed;
-	top: 400px;
+	top: 350px;
 	left: -8px;
 }
 

@@ -4,14 +4,14 @@ html, body{
 
 body{
 	background-color: white;
-	background-image:url(../../../flashlight1.png);
+	background-image:url(../img/flashlight1.png);
 	background-repeat:no-repeat;
 	background-position:50% 50%;
 }
 
 @font-face {
     font-family: myriad;
-    src: url(../../../assets/myriad.otf);
+    src: url(../myriad.otf);
 }
 
 p, a, h1, h2, h3{
@@ -27,4 +27,14 @@ p, a, h1, h2, h3{
 	padding-top: 18%;
 	font-size: 20pt;
 	text-decoration: none;
+}
+
+#about {
+	width: 45%;
+	margin: 0 auto;
+}
+
+#me {
+	width: 45%;
+	margin: 0 auto;
 }

@@ -42,21 +42,21 @@ a, p, h1, h2, h3, li {
 	margin-top: 0px;
 }
 
-#threadc {
+#thread05ed {
 	width: 22vw;
 	position: fixed;
 	top: 100px;
 	left: -5px;
 }
 
-#threadpol {
+#thread05con {
 	width: 22vw;
 	position: fixed;
 	top: 70px;
 	right: -5px;
 }
 
-#threadpov {
+#thread05pol {
 	width: 22vw;
 	position: fixed;
 	top: 400px;
@@ -68,6 +68,14 @@ a, p, h1, h2, h3, li {
 	display: inline-block;
 	margin-left: 27.5%;
 	padding: 40px 0px;
+}
+
+#home {
+	width: 80px;
+	left: 27.5%;
+	position: relative;
+	padding-bottom: 50px;
+
 }
 
 .share svg {

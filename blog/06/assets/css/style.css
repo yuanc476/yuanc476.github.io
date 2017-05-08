@@ -42,24 +42,24 @@ a, p, h1, h2, h3, li {
 	margin-top: 0px;
 }
 
-#threadc {
+#thread06pov {
 	width: 22vw;
 	position: fixed;
-	top: 100px;
+	top: 150px;
 	left: -5px;
 }
 
-#threadpol {
+#thread06pol {
 	width: 22vw;
 	position: fixed;
-	top: 70px;
+	top: 200px;
 	right: -5px;
 }
 
-#threadpov {
+#thread06ed {
 	width: 22vw;
 	position: fixed;
-	top: 400px;
+	top: 450px;
 	left: -8px;
 }
 
@@ -82,4 +82,11 @@ a, p, h1, h2, h3, li {
 
 #facebook {
 	display: inline-block;
+}
+
+#home {
+	width: 80px;
+	left: 27.5%;
+	position: relative;
+	padding-bottom: 50px;
 }
