@@ -22,10 +22,11 @@ html {
 @media screen and (max-width: 939px) {
 
     #tablet svg {
-	height: 95vh;
+	height: 108vh;
 	width: auto;
 	display: block;
 	margin: 0 auto;
+	margin-top: -20px;
 	/*padding: 4vh 0; */
 	}
 
