@@ -19,14 +19,33 @@ html {
 	}
 }
 
-@media screen and (max-width: 939px) {
+@media screen and (max-width: 939px) and (min-width: 516px) {
 
     #tablet svg {
-	height: 108vh;
+	height: 112vh;
 	width: auto;
 	display: block;
 	margin: 0 auto;
-	margin-top: -20px;
+	margin-top: -30px;
+	/*padding: 4vh 0; */
+	}
+
+	#laptop {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 515px) {
+
+    #tablet svg {
+	height: auto;
+	width: 105vw;
+	display: block;
+	margin: 0 auto;
+	margin-left: -20px;
+/*	vertical-align: center;*/
+
+/*	margin-top: -30px;*/
 	/*padding: 4vh 0; */
 	}
 
