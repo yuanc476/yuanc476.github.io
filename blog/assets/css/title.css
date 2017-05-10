@@ -2,12 +2,12 @@ html, body{
 	height:100%;
 }
 
-body{
+/*body{
 	background-color: white;
-	background-image:url(../img/flashlight1.png);
+	background-image:url(../img/flashlight2.png);
 	background-repeat:no-repeat;
 	background-position:50% 50%;
-}
+}*/
 
 @font-face {
     font-family: myriad;
@@ -24,11 +24,11 @@ p, a, h1, h2, h3{
 #title {
 	width: 40%;
 	margin: 0 auto;
-	padding-top: 18%;
+	padding-top: 19%;
 	font-size: 20pt;
 	text-decoration: none;
 }
-
+/*
 #about {
 	width: 45%;
 	margin: 0 auto;
@@ -37,4 +37,27 @@ p, a, h1, h2, h3{
 #me {
 	width: 45%;
 	margin: 0 auto;
+}*/
+
+@media screen and (min-width: 761px) {
+
+	body{
+		background-color: white;
+		background-image:url(../img/flashlight2.png);
+		background-repeat:no-repeat;
+		background-position:50% 50%;
+	}
+
 }
+
+@media screen and (max-width: 760px) {
+
+	body{
+		background-color: white;
+		background-image:url(../img/flashlight1.png);
+		background-repeat:no-repeat;
+		background-position:50% 50%;
+	}
+
+}
+

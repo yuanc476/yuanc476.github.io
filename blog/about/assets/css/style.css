@@ -23,11 +23,19 @@ a, p, h1, h2, h3, li {
 #about {
 	width: 45%;
 	margin: 0 auto;
+	margin-bottom: -20px;
 }
 
 #me {
 	width: 45%;
 	margin: 0 auto;
+	margin-bottom: -20px;
+}
+
+#contact {
+	width: 45%;
+	margin: 0 auto;
+	padding-bottom: 40px;
 }
 
 #home {

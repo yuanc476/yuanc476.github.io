@@ -3,6 +3,18 @@ html {
 	height: 100%;
 }
 
+@font-face {
+    font-family: myriad;
+    src: url(../../../assets/myriad.otf);
+}
+
+a, p, h1, h2, h3, li {
+	font-family: myriad;
+}
+
+p {
+	font-size: 10pt;
+}
 
 @media screen and (min-width: 940px) {
 
@@ -17,6 +29,65 @@ html {
 	#tablet {
 		display: none;
 	}
+
+	/*HOVER TEXT*/
+
+	.edutext {
+		position: absolute;
+		top: 24vh;
+		left: 50vw;
+		width: 250px;
+		z-index: 1;
+		background-color: white;
+		display: none;
+	}
+
+	.povtext {
+		position: absolute;
+		top: 80vh;
+		left: 38vw;
+		width: 250px;
+		z-index: 1;
+		background-color: white;
+		display: none;
+	}
+
+	.context {
+		position: absolute;
+		top: 62vh;
+		left: 18vw;
+		width: 250px;
+		z-index: 1;
+		background-color: white;
+		display: none;
+	}
+
+	.poltext {
+		position: absolute;
+		top: 58vh;
+		left: 65vw;
+		width: 250px;
+		z-index: 1;
+		background-color: white;
+		display: none;
+	}
+/*	.edutext {
+		position: absolute;
+		top: 25vh;
+		left: 48vw;
+		z-index: 1;
+		background-color: white;
+		display: none;
+	}*/
+
+/*	.education:hover .edutext {
+		display: block;
+		visibility: visible;
+	}*/
+
+/*	.show {
+		visibility: visible;
+	}*/
 }
 
 @media screen and (max-width: 939px) and (min-width: 516px) {
@@ -33,6 +104,7 @@ html {
 	#laptop {
 		display: none;
 	}
+
 }
 
 @media screen and (max-width: 515px) {
