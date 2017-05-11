@@ -105,6 +105,46 @@ p {
 		display: none;
 	}
 
+	.edutext {
+		position: absolute;
+		top: 24vh;
+		left: 30vw;
+		width: 250px;
+		z-index: 1;
+		background-color: white;
+		display: none;
+	}
+
+	.povtext {
+		position: absolute;
+		top: 76vh;
+		left: 28vw;
+		width: 250px;
+		z-index: 1;
+		background-color: white;
+		display: none;
+	}
+
+	.context {
+		position: absolute;
+		top: 54vh;
+		left: 18vw;
+		width: 250px;
+		z-index: 1;
+		background-color: white;
+		display: none;
+	}
+
+	.poltext {
+		position: absolute;
+		top: 78vh;
+		left: 55vw;
+		width: 250px;
+		z-index: 1;
+		background-color: white;
+		display: none;
+	}
+
 }
 
 @media screen and (max-width: 515px) {

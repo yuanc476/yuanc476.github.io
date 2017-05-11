@@ -13,73 +13,149 @@ a, p, h1, h2, h3, li {
 	line-height: 20pt;
 }
 
-#title {
-	width: 45%;
-	margin: 0 auto;
-/*	text-align: center;*/
-	padding-top: 40px;
-	padding-bottom: 2px;
+@media screen and (min-width: 375px) {
+
+	#title {
+		width: 45%;
+		margin: 0 auto;
+	/*	text-align: center;*/
+		padding-top: 40px;
+		padding-bottom: 2px;
+	}
+
+	#text {
+		width: 45%;
+		margin: 0 auto;
+	}
+
+	.image {
+		position: absolute;
+		top: 35%;
+		left: 3%;
+		width: 20%;
+		transition: 0.5s;
+	}
+
+	.image img {
+		width: 100%;
+	}
+
+	.image:hover {
+		width: 50%;
+		transition: 0.5s;
+	}
+
+	.image p {
+		font-size: 11pt;
+		margin-top: 0px;
+	}
+
+	#thread01wd {
+		width: 22vw;
+		position: fixed;
+		top: 10vh;
+		right: -5px;
+	}
+
+	.share {
+		margin: 0 auto;
+		display: inline-block;
+		margin-left: 27.5%;
+		padding: 40px 0px;
+	}
+
+	.share svg {
+		width: 30px;
+		display: inline-block;
+
+	}
+	/*
+	#tumblr {
+		display: inline-block;
+	}
+
+	#facebook {
+		display: inline-block;
+	}*/
+
+	#home {
+		width: 80px;
+		left: 27.5%;
+		position: absolute;
+		padding-bottom: 50px;
+	}
 }
 
-#text {
-	width: 45%;
-	margin: 0 auto;
-}
+@media screen and (max-width: 374px) {
 
-.image {
-	position: absolute;
-	top: 35%;
-	left: 3%;
-	width: 20%;
-	transition: 0.5s;
-}
+	#title {
+		width: 70%;
+		margin: 0 auto;
+	/*	text-align: center;*/
+		padding-top: 40px;
+		padding-bottom: 2px;
+	}
 
-.image img {
-	width: 100%;
-}
+	#text {
+		width: 70%;
+		margin: 0 auto;
+	}
 
-.image:hover {
-	width: 50%;
-	transition: 0.5s;
-}
+	.image {
+		position: absolute;
+		top: 35%;
+		left: 3%;
+		width: 20%;
+		transition: 0.5s;
+	}
 
-.image p {
-	font-size: 11pt;
-	margin-top: 0px;
-}
+	.image img {
+		width: 100%;
+	}
 
-#thread01wd {
-	width: 22vw;
-	position: fixed;
-	top: 10vh;
-	right: -5px;
-}
+	.image:hover {
+		width: 50%;
+		transition: 0.5s;
+	}
 
-.share {
-	margin: 0 auto;
-	display: inline-block;
-	margin-left: 27.5%;
-	padding: 40px 0px;
-}
+	.image p {
+		font-size: 11pt;
+		margin-top: 0px;
+	}
 
-.share svg {
-	width: 30px;
-	display: inline-block;
+	#thread01wd {
+		width: 22vw;
+		position: fixed;
+		top: 10vh;
+		right: -5px;
+	}
 
-}
+	.share {
+		margin: 0 auto;
+		display: inline-block;
+		margin-left: 27.5%;
+		padding: 40px 0px;
+	}
 
-#tumblr {
-	display: inline-block;
-}
+	.share svg {
+		width: 30px;
+		display: inline-block;
 
-#facebook {
-	display: inline-block;
-}
+	}
+	/*
+	#tumblr {
+		display: inline-block;
+	}
 
-#home {
-	width: 80px;
-	left: 27.5%;
-	position: absolute;
-	padding-bottom: 50px;
+	#facebook {
+		display: inline-block;
+	}*/
+
+	#home {
+		width: 80px;
+		left: 27.5%;
+		position: absolute;
+		padding-bottom: 50px;
+	}
 
 }
