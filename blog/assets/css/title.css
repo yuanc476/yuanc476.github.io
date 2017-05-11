@@ -1,5 +1,8 @@
 html, body{
 	height:100%;
+	width: 100%;
+	top: 0px;
+	left: 0px;
 }
 
 /*body{
@@ -21,13 +24,7 @@ p, a, h1, h2, h3{
 	text-decoration: none;
 }
 
-#title {
-	width: 40%;
-	margin: 0 auto;
-	padding-top: 19%;
-	font-size: 20pt;
-	text-decoration: none;
-}
+
 /*
 #about {
 	width: 45%;
@@ -46,6 +43,23 @@ p, a, h1, h2, h3{
 		background-image:url(../img/flashlight2.png);
 		background-repeat:no-repeat;
 		background-position:50% 50%;
+		margin-top: -30vh;
+		margin-left: -5vw;
+	}
+
+	#title {
+		width: 80%;
+		margin: 0 auto;
+/*		padding-top: 1%;*/
+		font-size: 20pt;
+		text-decoration: none;
+	}
+
+	#title h2 {
+		width: 100%;
+		font-size: 40vh;
+		text-align: center;
+		vertical-align: center;
 	}
 
 }
@@ -57,6 +71,15 @@ p, a, h1, h2, h3{
 		background-image:url(../img/flashlight1.png);
 		background-repeat:no-repeat;
 		background-position:50% 50%;
+	}
+
+	#title {
+	width: 40%;
+	margin: 0 auto;
+	padding-top: 19%;
+	font-size: 30pt;
+	text-decoration: none;
+	text-align: center;
 	}
 
 }
