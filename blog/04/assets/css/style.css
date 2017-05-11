@@ -51,22 +51,29 @@ a, p, h1, h2, h3, li {
 #threadc {
 	width: 22vw;
 	position: fixed;
-	top: 100px;
+	top: 18vh;
 	left: -5px;
 }
 
 #threadpol {
 	width: 22vw;
 	position: fixed;
-	top: 70px;
+	top: 18vh;
 	right: -5px;
 }
 
 #threadpov {
 	width: 22vw;
 	position: fixed;
-	top: 400px;
+	top: 65vh;
 	left: -8px;
+}
+
+#threadconclusion {
+	width: 22vw;
+	position: fixed;
+	top: 80vh;
+	right: -8px;
 }
 
 #home {

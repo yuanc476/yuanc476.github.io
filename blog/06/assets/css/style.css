@@ -51,7 +51,7 @@ a, p, h1, h2, h3, li {
 #thread06pov {
 	width: 22vw;
 	position: fixed;
-	top: 150px;
+	top: 20vh;
 	left: -5px;
 }
 
@@ -65,8 +65,15 @@ a, p, h1, h2, h3, li {
 #thread06ed {
 	width: 22vw;
 	position: fixed;
-	top: 450px;
+	top: 75vh;
 	left: -8px;
+}
+
+#threadconclusion {
+	width: 22vw;
+	position: fixed;
+	top: 80vh;
+	right: -8px;
 }
 
 .share {
