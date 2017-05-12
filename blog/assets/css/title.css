@@ -75,12 +75,12 @@ p, a, h1, h2, h3{
 	}
 
 	#title {
-	width: 40%;
-	margin: 0 auto;
-	padding-top: 19%;
-	font-size: 30pt;
-	text-decoration: none;
-	text-align: center;
+		width: 40%;
+		margin: 0 auto;
+		padding-top: 30%;
+		font-size: 30pt;
+		text-decoration: none;
+		text-align: center;
 	}
 
 }

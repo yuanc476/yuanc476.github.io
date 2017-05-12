@@ -13,7 +13,7 @@ a, p, h1, h2, h3, li {
 	line-height: 20pt;
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 426px) {
 
 	#title {
 		width: 45%;
@@ -86,10 +86,10 @@ a, p, h1, h2, h3, li {
 	}
 }
 
-@media screen and (max-width: 374px) {
+@media screen and (max-width: 425px) {
 
 	#title {
-		width: 70%;
+		width: 90%;
 		margin: 0 auto;
 	/*	text-align: center;*/
 		padding-top: 40px;
@@ -97,16 +97,17 @@ a, p, h1, h2, h3, li {
 	}
 
 	#text {
-		width: 70%;
+		width: 90%;
 		margin: 0 auto;
 	}
 
 	.image {
-		position: absolute;
-		top: 35%;
-		left: 3%;
-		width: 20%;
-		transition: 0.5s;
+		/*position: absolute;*/
+		/*top: 35%;
+		left: 3%;*/
+		width: 90%;
+		margin: 0 auto;
+/*		transition: 0.5s;*/
 	}
 
 	.image img {
@@ -124,10 +125,12 @@ a, p, h1, h2, h3, li {
 	}
 
 	#thread01wd {
-		width: 22vw;
-		position: fixed;
+	/*	width: 45vw;
+		right: 0px;
+		position: absolute;*/
+		/*position: fixed;
 		top: 10vh;
-		right: -5px;
+		right: -5px;*/
 	}
 
 	.share {
@@ -153,7 +156,7 @@ a, p, h1, h2, h3, li {
 
 	#home {
 		width: 80px;
-		left: 27.5%;
+		left: 5vw;
 		position: absolute;
 		padding-bottom: 50px;
 	}

@@ -117,7 +117,7 @@ p {
 
 	.povtext {
 		position: absolute;
-		top: 76vh;
+		top: 78vh;
 		left: 28vw;
 		width: 250px;
 		z-index: 1;
@@ -150,18 +150,55 @@ p {
 @media screen and (max-width: 515px) {
 
     #tablet svg {
-	height: auto;
-	width: 105vw;
-	display: block;
-	margin: 0 auto;
-	margin-left: -20px;
-/*	vertical-align: center;*/
+		height: auto;
+		width: 105vw;
+		display: block;
+		margin: 0 auto;
+		margin-left: -20px;
 
-/*	margin-top: -30px;*/
-	/*padding: 4vh 0; */
 	}
 
 	#laptop {
+		display: none;
+	}
+
+	.edutext {
+		position: absolute;
+		top: 30vh;
+		left: 20vw;
+		width: 250px;
+		z-index: 1;
+		background-color: white;
+		display: none;
+	}
+
+	.povtext {
+		position: absolute;
+		top: 85vh;
+		left: 28vw;
+		width: 250px;
+		z-index: 1;
+		background-color: white;
+		display: none;
+	}
+
+	.context {
+		position: absolute;
+		top: 59vh;
+		left: 10vw;
+		width: 250px;
+		z-index: 1;
+		background-color: white;
+		display: none;
+	}
+
+	.poltext {
+		position: absolute;
+		top: 82vh;
+		left: 47vw;
+		width: 250px;
+		z-index: 1;
+		background-color: white;
 		display: none;
 	}
 }

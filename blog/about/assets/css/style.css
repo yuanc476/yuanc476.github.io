@@ -13,34 +13,72 @@ a, p, h1, h2, h3, li {
 	line-height: 20pt;
 }
 
-.title {
-	width: 45%;
-	margin: 0 auto;
-	padding-top: 40px;
-/*	padding-bottom: 2px;*/
+@media screen and (min-width: 426px) {
+
+	.title {
+		width: 45%;
+		margin: 0 auto;
+		padding-top: 40px;
+	/*	padding-bottom: 2px;*/
+	}
+
+	#about {
+		width: 45%;
+		margin: 0 auto;
+		margin-bottom: -20px;
+	}
+
+	#me {
+		width: 45%;
+		margin: 0 auto;
+		margin-bottom: -20px;
+	}
+
+	#contact {
+		width: 45%;
+		margin: 0 auto;
+		padding-bottom: 40px;
+	}
+
+	#home {
+		width: 80px;
+		left: 27.5%;
+		position: relative;
+		padding-bottom: 50px;
+	}
 }
 
-#about {
-	width: 45%;
-	margin: 0 auto;
-	margin-bottom: -20px;
-}
+@media screen and (max-width: 425px) {
 
-#me {
-	width: 45%;
-	margin: 0 auto;
-	margin-bottom: -20px;
-}
+	.title {
+		width: 90%;
+		margin: 0 auto;
+		padding-top: 20px;
+	/*	padding-bottom: 2px;*/
+	}
 
-#contact {
-	width: 45%;
-	margin: 0 auto;
-	padding-bottom: 40px;
-}
+	#about {
+		width: 90%;
+		margin: 0 auto;
+		margin-bottom: -20px;
+	}
 
-#home {
-	width: 80px;
-	left: 27.5%;
-	position: relative;
-	padding-bottom: 50px;
+	#me {
+		width: 90%;
+		margin: 0 auto;
+		margin-bottom: -20px;
+	}
+
+	#contact {
+		width: 90%;
+		margin: 0 auto;
+		padding-bottom: 40px;
+	}
+
+	#home {
+		width: 80px;
+		left: 5%;
+		position: relative;
+		padding-bottom: 50px;
+	}
 }

@@ -13,93 +13,155 @@ a, p, h1, h2, h3, li {
 	line-height: 20pt;
 }
 
-#title {
-	width: 45%;
-	margin: 0 auto;
-/*	text-align: center;*/
-	padding-top: 40px;
-	padding-bottom: 2px;
+@media screen and (min-width: 426px) {
+
+	#title {
+		width: 45%;
+		margin: 0 auto;
+	/*	text-align: center;*/
+		padding-top: 40px;
+		padding-bottom: 2px;
+	}
+
+	#text {
+		width: 45%;
+		margin: 0 auto;
+	}
+
+	.image {
+		position: absolute;
+		top: 35%;
+		right: 3%;
+		width: 19%;
+		transition: 0.5s;
+	}
+
+	.image img {
+		width: 100%;
+	}
+
+	.image p {
+		font-size: 11pt;
+		margin-top: 0px;
+	}
+
+	.image:hover {
+		width: 50%;
+		transition: 0.5s;
+	}
+
+	#thread07con {
+		width: 22vw;
+		position: fixed;
+		top: 18vh;
+		left: -5px;
+	}
+
+	#thread07ed {
+		width: 22vw;
+		position: fixed;
+		top: 13vh;
+		right: -5px;
+	}
+
+	#thread07pov {
+		width: 22vw;
+		position: fixed;
+		top: 65vh;
+		left: -8px;
+	}
+
+	#threadconclusion {
+		width: 22vw;
+		position: fixed;
+		top: 80vh;
+		right: -8px;
+	}
+
+	.share {
+		margin: 0 auto;
+		display: inline-block;
+		margin-left: 27.5%;
+		padding: 40px 0px;
+	}
+
+	.share svg {
+		width: 30px;
+		display: inline-block;
+
+	}
+
+	#tumblr {
+		display: inline-block;
+	}
+
+	#facebook {
+		display: inline-block;
+	}
+
+	#home {
+		width: 80px;
+		left: 27.5%;
+		position: relative;
+		padding-bottom: 50px;
+	}
 }
 
-#text {
-	width: 45%;
-	margin: 0 auto;
-}
+@media screen and (max-width: 425px) {
 
-.image {
-	position: absolute;
-	top: 35%;
-	right: 3%;
-	width: 19%;
-	transition: 0.5s;
-}
+	#title {
+		width: 90%;
+		margin: 0 auto;
+	/*	text-align: center;*/
+		padding-top: 40px;
+		padding-bottom: 2px;
+	}
 
-.image img {
-	width: 100%;
-}
+	#text {
+		width: 90%;
+		margin: 0 auto;
+	}
 
-.image p {
-	font-size: 11pt;
-	margin-top: 0px;
-}
+	.image {
+		/*position: absolute;*/
+		/*top: 35%;
+		left: 3%;*/
+		width: 90%;
+		margin: 0 auto;
+/*		transition: 0.5s;*/
+	}
 
-.image:hover {
-	width: 50%;
-	transition: 0.5s;
-}
+	.image img {
+		width: 100%;
+	}
 
-#thread07con {
-	width: 22vw;
-	position: fixed;
-	top: 18vh;
-	left: -5px;
-}
+	.image:hover {
+		width: 50%;
+		transition: 0.5s;
+	}
 
-#thread07ed {
-	width: 22vw;
-	position: fixed;
-	top: 13vh;
-	right: -5px;
-}
+	.image p {
+		font-size: 11pt;
+		margin-top: 0px;
+	}
 
-#thread07pov {
-	width: 22vw;
-	position: fixed;
-	top: 65vh;
-	left: -8px;
-}
+	.share {
+		margin: 0 auto;
+		display: inline-block;
+		margin-left: 27.5%;
+		padding: 40px 0px;
+	}
 
-#threadconclusion {
-	width: 22vw;
-	position: fixed;
-	top: 80vh;
-	right: -8px;
-}
+	.share svg {
+		width: 30px;
+		display: inline-block;
+	}
 
-.share {
-	margin: 0 auto;
-	display: inline-block;
-	margin-left: 27.5%;
-	padding: 40px 0px;
-}
+	#home {
+		width: 80px;
+		left: 5vw;
+		position: absolute;
+		padding-bottom: 50px;
+	}
 
-.share svg {
-	width: 30px;
-	display: inline-block;
-
-}
-
-#tumblr {
-	display: inline-block;
-}
-
-#facebook {
-	display: inline-block;
-}
-
-#home {
-	width: 80px;
-	left: 27.5%;
-	position: relative;
-	padding-bottom: 50px;
 }

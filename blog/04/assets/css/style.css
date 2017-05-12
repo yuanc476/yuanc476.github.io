@@ -13,110 +13,158 @@ a, p, h1, h2, h3, li {
 	line-height: 20pt;
 }
 
-#title {
-	width: 45%;
-	margin: 0 auto;
-/*	text-align: center;*/
-	padding-top: 40px;
-	padding-bottom: 2px;
-}
+@media screen and (min-width: 426px) {
 
-#text {
-	width: 45%;
-	margin: 0 auto;
-}
 
-.image {
-	position: absolute;
-	top: 35%;
-	right: 3%;
-	width: 18%;
-	transition: 0.5s;
-}
-
-.image img {
-	width: 100%;
-}
-
-.image p {
-	font-size: 11pt;
-	margin-top: 0px;
-}
-
-.image:hover {
-	width: 50%;
-	transition: 0.5s;
-}
-
-#threadc {
-	width: 22vw;
-	position: fixed;
-	top: 18vh;
-	left: -5px;
-}
-
-#threadpol {
-	width: 22vw;
-	position: fixed;
-	top: 18vh;
-	right: -5px;
-}
-
-#threadpov {
-	width: 22vw;
-	position: fixed;
-	top: 65vh;
-	left: -8px;
-}
-
-#threadconclusion {
-	width: 22vw;
-	position: fixed;
-	top: 80vh;
-	right: -8px;
-}
-
-#home {
-	width: 80px;
-	left: 27.5%;
-	position: relative;
-	padding-bottom: 50px;
-
-}
-
-.share {
-	margin: 0 auto;
-	display: inline-block;
-	margin-left: 27.5%;
-	padding: 40px 0px;
-}
-
-.share svg {
-	width: 30px;
-	display: inline-block;
-
-}
-
-#tumblr {
-	display: inline-block;
-}
-
-#facebook {
-	display: inline-block;
-}
-
-@media screen and (min-width: 760px) {
-	a, p, h1, h3, li {
-		font-family: myriad;
-		font-size: 12pt;
-		line-height: 20pt;
+	#title {
+		width: 45%;
+		margin: 0 auto;
+	/*	text-align: center;*/
+		padding-top: 40px;
+		padding-bottom: 2px;
 	}
+
+	#text {
+		width: 45%;
+		margin: 0 auto;
+	}
+
+	.image {
+		position: absolute;
+		top: 35%;
+		right: 3%;
+		width: 18%;
+		transition: 0.5s;
+	}
+
+	.image img {
+		width: 100%;
+	}
+
+	.image p {
+		font-size: 11pt;
+		margin-top: 0px;
+	}
+
+	.image:hover {
+		width: 50%;
+		transition: 0.5s;
+	}
+
+	#threadc {
+		width: 22vw;
+		position: fixed;
+		top: 18vh;
+		left: -5px;
+	}
+
+	#threadpol {
+		width: 22vw;
+		position: fixed;
+		top: 18vh;
+		right: -5px;
+	}
+
+	#threadpov {
+		width: 22vw;
+		position: fixed;
+		top: 65vh;
+		left: -8px;
+	}
+
+	#threadconclusion {
+		width: 22vw;
+		position: fixed;
+		top: 80vh;
+		right: -8px;
+	}
+
+	#home {
+		width: 80px;
+		left: 27.5%;
+		position: relative;
+		padding-bottom: 50px;
+
+	}
+
+	.share {
+		margin: 0 auto;
+		display: inline-block;
+		margin-left: 27.5%;
+		padding: 40px 0px;
+	}
+
+	.share svg {
+		width: 30px;
+		display: inline-block;
+
+	}
+
+/*	#tumblr {
+		display: inline-block;
+	}
+
+	#facebook {
+		display: inline-block;
+	}*/
+
 }
 
-@media screen and (max-width: 759px) {
-	a, p, h1, h3, li {
-		font-family: myriad;
-		font-size: 10pt;
-		line-height: 20pt;
+@media screen and (max-width: 425px) {
+
+	#title {
+		width: 90%;
+		margin: 0 auto;
+	/*	text-align: center;*/
+		padding-top: 40px;
+		padding-bottom: 2px;
 	}
+
+	#text {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.image {
+		/*position: absolute;*/
+		/*top: 35%;
+		left: 3%;*/
+		width: 90%;
+		margin: 0 auto;
+/*		transition: 0.5s;*/
+	}
+
+	.image img {
+		width: 100%;
+	}
+
+	.image:hover {
+		width: 50%;
+		transition: 0.5s;
+	}
+
+	.image p {
+		font-size: 11pt;
+		margin-top: 0px;
+	}
+
+	.share {
+		margin: 0 auto;
+		display: inline-block;
+		margin-left: 27.5%;
+		padding: 40px 0px;
+	}
+
+	.share svg {
+		width: 30px;
+		display: inline-block;
+	}
+
+	#home {
+		width: 80px;
+		left: 5vw;
+		position: absolute;
+		padding-bottom: 50px;
+	}
+
 }
