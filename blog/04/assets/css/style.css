@@ -31,7 +31,7 @@ a, p, h1, h2, h3, li {
 
 	.image {
 		position: absolute;
-		top: 35%;
+		top: 43%;
 		right: 3%;
 		width: 18%;
 		transition: 0.5s;
@@ -58,14 +58,14 @@ a, p, h1, h2, h3, li {
 		left: -5px;
 	}
 
-	#threadpol {
+	#threadpov {
 		width: 22vw;
 		position: fixed;
-		top: 18vh;
+		top: 12vh;
 		right: -5px;
 	}
 
-	#threadpov {
+	#threadpol {
 		width: 22vw;
 		position: fixed;
 		top: 65vh;
