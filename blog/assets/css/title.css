@@ -53,6 +53,7 @@ p, a, h1, h2, h3{
 /*		padding-top: 1%;*/
 		font-size: 20pt;
 		text-decoration: none;
+		vertical-align: middle;
 	}
 
 	#title h2 {
